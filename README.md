@@ -7,9 +7,14 @@ Due to the numerous requests I nonetheless chose to open it to the public, in th
 
 About
 -----
-This is a firmware for avr controllers like the teensy to simulate a keyboard and a mouse. It was created for a custom split keyboard design with 4x6 keys on each side in a matrix layout but could be adapted easily for other hardware. A presentation of my current keyboard prototype can be found [here][DT_hw].
+This is a firmware for avr controllers like the teensy to simulate a keyboard and a mouse. It was created for a custom split keyboard design with 4x6 keys on each side in a matrix layout but could be adapted easily for other hardware. 
 
 It enables a different, more ergonomic layout without any further drivers on any host operating system. In its current state, the well evolved [AdNW layout][adnw] is implemented with layers 3&4 (special characters, navigational keys and numpad) from the [neo layout][neo]. In addition, an integrated IBM trackpoint is also supported, but any PS/2 compatible device can also be hooked-up to the controller.
+
+![BlueCube](http://frobiac.github.com/adnw/img/bluecube/BlueCube-4-tilted.jpg)
+![HyperNano](http://frobiac.github.com/adnw/img/hypernano/2-Final_top.JPG)
+
+A presentation of my current keyboard prototype can be found [here][DT_hw], where you'll also find more detailed information on the hardware and the layout used as well as discussions related to these project.
 
 
 Credits
